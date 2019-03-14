@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BEBB3B79EE19CB40A760E00 /* Pods_ChartsSwitfDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8A19A44934BA4359243C1F /* Pods_ChartsSwitfDemoUITests.framework */; };
+		8BBBEAEE81A37F9EDCCD3C8F /* Pods_ChartsSwitfDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEFC5E4970B088EFC149EBF /* Pods_ChartsSwitfDemo.framework */; };
+		B5ECF9C336116A6FBAE3DC22 /* Pods_ChartsSwitfDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C0CCEFDA60C95CF24093B9 /* Pods_ChartsSwitfDemoTests.framework */; };
+		F12E17292237CF64006DEC21 /* BarChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12E17282237CF64006DEC21 /* BarChartsViewController.swift */; };
+		F12E172B2237D2FD006DEC21 /* GroupBarChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12E172A2237D2FD006DEC21 /* GroupBarChartsViewController.swift */; };
+		F12E172E2237DE92006DEC21 /* GragBarChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12E172D2237DE92006DEC21 /* GragBarChartsViewController.swift */; };
+		F15F2E1D2236115A007B10BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F2E1C2236115A007B10BB /* AppDelegate.swift */; };
+		F15F2E1F2236115A007B10BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F2E1E2236115A007B10BB /* ViewController.swift */; };
+		F15F2E222236115A007B10BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15F2E202236115A007B10BB /* Main.storyboard */; };
+		F15F2E242236115C007B10BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15F2E232236115C007B10BB /* Assets.xcassets */; };
+		F15F2E272236115C007B10BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15F2E252236115C007B10BB /* LaunchScreen.storyboard */; };
+		F15F2E322236115C007B10BB /* ChartsSwitfDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F2E312236115C007B10BB /* ChartsSwitfDemoTests.swift */; };
+		F15F2E3D2236115C007B10BB /* ChartsSwitfDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F2E3C2236115C007B10BB /* ChartsSwitfDemoUITests.swift */; };
+		F16143EF2238D6D700B9DE53 /* CombinedChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16143EE2238D6D700B9DE53 /* CombinedChartViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F15F2E2E2236115C007B10BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15F2E112236115A007B10BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15F2E182236115A007B10BB;
+			remoteInfo = ChartsSwitfDemo;
+		};
+		F15F2E392236115C007B10BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15F2E112236115A007B10BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15F2E182236115A007B10BB;
+			remoteInfo = ChartsSwitfDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3027ABF05533A0AA2AB413FC /* Pods-ChartsSwitfDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsSwitfDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsSwitfDemoUITests/Pods-ChartsSwitfDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90C0CCEFDA60C95CF24093B9 /* Pods_ChartsSwitfDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartsSwitfDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C726E287F3EC90C175F7498 /* Pods-ChartsSwitfDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsSwitfDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsSwitfDemoTests/Pods-ChartsSwitfDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A1B67AB7A1CB635DD13C4973 /* Pods-ChartsSwitfDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsSwitfDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsSwitfDemo/Pods-ChartsSwitfDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A699F5DA73107427A6010A28 /* Pods-ChartsSwitfDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsSwitfDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsSwitfDemoTests/Pods-ChartsSwitfDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A9E74573E8E476682584C950 /* Pods-ChartsSwitfDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsSwitfDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsSwitfDemoUITests/Pods-ChartsSwitfDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF8A19A44934BA4359243C1F /* Pods_ChartsSwitfDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartsSwitfDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEEFC5E4970B088EFC149EBF /* Pods_ChartsSwitfDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartsSwitfDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F019596DF485B24D410FCEA2 /* Pods-ChartsSwitfDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartsSwitfDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChartsSwitfDemo/Pods-ChartsSwitfDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F12E17282237CF64006DEC21 /* BarChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartsViewController.swift; sourceTree = "<group>"; };
+		F12E172A2237D2FD006DEC21 /* GroupBarChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBarChartsViewController.swift; sourceTree = "<group>"; };
+		F12E172D2237DE92006DEC21 /* GragBarChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GragBarChartsViewController.swift; sourceTree = "<group>"; };
+		F15F2E192236115A007B10BB /* ChartsSwitfDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsSwitfDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15F2E1C2236115A007B10BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F15F2E1E2236115A007B10BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F15F2E212236115A007B10BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F15F2E232236115C007B10BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F15F2E262236115C007B10BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F15F2E282236115C007B10BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15F2E2D2236115C007B10BB /* ChartsSwitfDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartsSwitfDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15F2E312236115C007B10BB /* ChartsSwitfDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsSwitfDemoTests.swift; sourceTree = "<group>"; };
+		F15F2E332236115C007B10BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15F2E382236115C007B10BB /* ChartsSwitfDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartsSwitfDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15F2E3C2236115C007B10BB /* ChartsSwitfDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsSwitfDemoUITests.swift; sourceTree = "<group>"; };
+		F15F2E3E2236115C007B10BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16143EE2238D6D700B9DE53 /* CombinedChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedChartViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F15F2E162236115A007B10BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BBBEAEE81A37F9EDCCD3C8F /* Pods_ChartsSwitfDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15F2E2A2236115C007B10BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5ECF9C336116A6FBAE3DC22 /* Pods_ChartsSwitfDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15F2E352236115C007B10BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEBB3B79EE19CB40A760E00 /* Pods_ChartsSwitfDemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8556026D02AD8983AF462B46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F019596DF485B24D410FCEA2 /* Pods-ChartsSwitfDemo.debug.xcconfig */,
+				A1B67AB7A1CB635DD13C4973 /* Pods-ChartsSwitfDemo.release.xcconfig */,
+				A699F5DA73107427A6010A28 /* Pods-ChartsSwitfDemoTests.debug.xcconfig */,
+				9C726E287F3EC90C175F7498 /* Pods-ChartsSwitfDemoTests.release.xcconfig */,
+				A9E74573E8E476682584C950 /* Pods-ChartsSwitfDemoUITests.debug.xcconfig */,
+				3027ABF05533A0AA2AB413FC /* Pods-ChartsSwitfDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F15F2E102236115A007B10BB = {
+			isa = PBXGroup;
+			children = (
+				F15F2E1B2236115A007B10BB /* ChartsSwitfDemo */,
+				F15F2E302236115C007B10BB /* ChartsSwitfDemoTests */,
+				F15F2E3B2236115C007B10BB /* ChartsSwitfDemoUITests */,
+				F15F2E1A2236115A007B10BB /* Products */,
+				8556026D02AD8983AF462B46 /* Pods */,
+				F6FD0CAC0D6498E808862114 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F15F2E1A2236115A007B10BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F15F2E192236115A007B10BB /* ChartsSwitfDemo.app */,
+				F15F2E2D2236115C007B10BB /* ChartsSwitfDemoTests.xctest */,
+				F15F2E382236115C007B10BB /* ChartsSwitfDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F15F2E1B2236115A007B10BB /* ChartsSwitfDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F15F2E1C2236115A007B10BB /* AppDelegate.swift */,
+				F15F2E1E2236115A007B10BB /* ViewController.swift */,
+				F15F2E202236115A007B10BB /* Main.storyboard */,
+				F15F2E232236115C007B10BB /* Assets.xcassets */,
+				F15F2E252236115C007B10BB /* LaunchScreen.storyboard */,
+				F15F2E282236115C007B10BB /* Info.plist */,
+				F12E17282237CF64006DEC21 /* BarChartsViewController.swift */,
+				F12E172A2237D2FD006DEC21 /* GroupBarChartsViewController.swift */,
+				F12E172D2237DE92006DEC21 /* GragBarChartsViewController.swift */,
+				F16143EE2238D6D700B9DE53 /* CombinedChartViewController.swift */,
+			);
+			path = ChartsSwitfDemo;
+			sourceTree = "<group>";
+		};
+		F15F2E302236115C007B10BB /* ChartsSwitfDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F15F2E312236115C007B10BB /* ChartsSwitfDemoTests.swift */,
+				F15F2E332236115C007B10BB /* Info.plist */,
+			);
+			path = ChartsSwitfDemoTests;
+			sourceTree = "<group>";
+		};
+		F15F2E3B2236115C007B10BB /* ChartsSwitfDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F15F2E3C2236115C007B10BB /* ChartsSwitfDemoUITests.swift */,
+				F15F2E3E2236115C007B10BB /* Info.plist */,
+			);
+			path = ChartsSwitfDemoUITests;
+			sourceTree = "<group>";
+		};
+		F6FD0CAC0D6498E808862114 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEEFC5E4970B088EFC149EBF /* Pods_ChartsSwitfDemo.framework */,
+				90C0CCEFDA60C95CF24093B9 /* Pods_ChartsSwitfDemoTests.framework */,
+				CF8A19A44934BA4359243C1F /* Pods_ChartsSwitfDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F15F2E182236115A007B10BB /* ChartsSwitfDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15F2E412236115C007B10BB /* Build configuration list for PBXNativeTarget "ChartsSwitfDemo" */;
+			buildPhases = (
+				060003B2D98402EAC3B167DB /* [CP] Check Pods Manifest.lock */,
+				F15F2E152236115A007B10BB /* Sources */,
+				F15F2E162236115A007B10BB /* Frameworks */,
+				F15F2E172236115A007B10BB /* Resources */,
+				2996F011546AB2A84ABF87FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChartsSwitfDemo;
+			productName = ChartsSwitfDemo;
+			productReference = F15F2E192236115A007B10BB /* ChartsSwitfDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F15F2E2C2236115C007B10BB /* ChartsSwitfDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15F2E442236115C007B10BB /* Build configuration list for PBXNativeTarget "ChartsSwitfDemoTests" */;
+			buildPhases = (
+				552BCB62611754526329E34C /* [CP] Check Pods Manifest.lock */,
+				F15F2E292236115C007B10BB /* Sources */,
+				F15F2E2A2236115C007B10BB /* Frameworks */,
+				F15F2E2B2236115C007B10BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15F2E2F2236115C007B10BB /* PBXTargetDependency */,
+			);
+			name = ChartsSwitfDemoTests;
+			productName = ChartsSwitfDemoTests;
+			productReference = F15F2E2D2236115C007B10BB /* ChartsSwitfDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F15F2E372236115C007B10BB /* ChartsSwitfDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15F2E472236115C007B10BB /* Build configuration list for PBXNativeTarget "ChartsSwitfDemoUITests" */;
+			buildPhases = (
+				E99C5DCF7E52AC161561B102 /* [CP] Check Pods Manifest.lock */,
+				F15F2E342236115C007B10BB /* Sources */,
+				F15F2E352236115C007B10BB /* Frameworks */,
+				F15F2E362236115C007B10BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15F2E3A2236115C007B10BB /* PBXTargetDependency */,
+			);
+			name = ChartsSwitfDemoUITests;
+			productName = ChartsSwitfDemoUITests;
+			productReference = F15F2E382236115C007B10BB /* ChartsSwitfDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F15F2E112236115A007B10BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = pxh;
+				TargetAttributes = {
+					F15F2E182236115A007B10BB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F15F2E2C2236115C007B10BB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F15F2E182236115A007B10BB;
+					};
+					F15F2E372236115C007B10BB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F15F2E182236115A007B10BB;
+					};
+				};
+			};
+			buildConfigurationList = F15F2E142236115A007B10BB /* Build configuration list for PBXProject "ChartsSwitfDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F15F2E102236115A007B10BB;
+			productRefGroup = F15F2E1A2236115A007B10BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F15F2E182236115A007B10BB /* ChartsSwitfDemo */,
+				F15F2E2C2236115C007B10BB /* ChartsSwitfDemoTests */,
+				F15F2E372236115C007B10BB /* ChartsSwitfDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F15F2E172236115A007B10BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15F2E272236115C007B10BB /* LaunchScreen.storyboard in Resources */,
+				F15F2E242236115C007B10BB /* Assets.xcassets in Resources */,
+				F15F2E222236115A007B10BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15F2E2B2236115C007B10BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15F2E362236115C007B10BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		060003B2D98402EAC3B167DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChartsSwitfDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2996F011546AB2A84ABF87FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChartsSwitfDemo/Pods-ChartsSwitfDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChartsSwitfDemo/Pods-ChartsSwitfDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		552BCB62611754526329E34C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChartsSwitfDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E99C5DCF7E52AC161561B102 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChartsSwitfDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F15F2E152236115A007B10BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15F2E1F2236115A007B10BB /* ViewController.swift in Sources */,
+				F15F2E1D2236115A007B10BB /* AppDelegate.swift in Sources */,
+				F12E172E2237DE92006DEC21 /* GragBarChartsViewController.swift in Sources */,
+				F12E17292237CF64006DEC21 /* BarChartsViewController.swift in Sources */,
+				F16143EF2238D6D700B9DE53 /* CombinedChartViewController.swift in Sources */,
+				F12E172B2237D2FD006DEC21 /* GroupBarChartsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15F2E292236115C007B10BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15F2E322236115C007B10BB /* ChartsSwitfDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15F2E342236115C007B10BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15F2E3D2236115C007B10BB /* ChartsSwitfDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F15F2E2F2236115C007B10BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15F2E182236115A007B10BB /* ChartsSwitfDemo */;
+			targetProxy = F15F2E2E2236115C007B10BB /* PBXContainerItemProxy */;
+		};
+		F15F2E3A2236115C007B10BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15F2E182236115A007B10BB /* ChartsSwitfDemo */;
+			targetProxy = F15F2E392236115C007B10BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F15F2E202236115A007B10BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15F2E212236115A007B10BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F15F2E252236115C007B10BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15F2E262236115C007B10BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F15F2E3F2236115C007B10BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F15F2E402236115C007B10BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F15F2E422236115C007B10BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F019596DF485B24D410FCEA2 /* Pods-ChartsSwitfDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChartsSwitfDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunzhisheng.ChartsSwitfDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F15F2E432236115C007B10BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B67AB7A1CB635DD13C4973 /* Pods-ChartsSwitfDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChartsSwitfDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunzhisheng.ChartsSwitfDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F15F2E452236115C007B10BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A699F5DA73107427A6010A28 /* Pods-ChartsSwitfDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChartsSwitfDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunzhisheng.ChartsSwitfDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartsSwitfDemo.app/ChartsSwitfDemo";
+			};
+			name = Debug;
+		};
+		F15F2E462236115C007B10BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C726E287F3EC90C175F7498 /* Pods-ChartsSwitfDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChartsSwitfDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunzhisheng.ChartsSwitfDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartsSwitfDemo.app/ChartsSwitfDemo";
+			};
+			name = Release;
+		};
+		F15F2E482236115C007B10BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E74573E8E476682584C950 /* Pods-ChartsSwitfDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChartsSwitfDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunzhisheng.ChartsSwitfDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChartsSwitfDemo;
+			};
+			name = Debug;
+		};
+		F15F2E492236115C007B10BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3027ABF05533A0AA2AB413FC /* Pods-ChartsSwitfDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ChartsSwitfDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunzhisheng.ChartsSwitfDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChartsSwitfDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F15F2E142236115A007B10BB /* Build configuration list for PBXProject "ChartsSwitfDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15F2E3F2236115C007B10BB /* Debug */,
+				F15F2E402236115C007B10BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15F2E412236115C007B10BB /* Build configuration list for PBXNativeTarget "ChartsSwitfDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15F2E422236115C007B10BB /* Debug */,
+				F15F2E432236115C007B10BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15F2E442236115C007B10BB /* Build configuration list for PBXNativeTarget "ChartsSwitfDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15F2E452236115C007B10BB /* Debug */,
+				F15F2E462236115C007B10BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15F2E472236115C007B10BB /* Build configuration list for PBXNativeTarget "ChartsSwitfDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15F2E482236115C007B10BB /* Debug */,
+				F15F2E492236115C007B10BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F15F2E112236115A007B10BB /* Project object */;
+}
