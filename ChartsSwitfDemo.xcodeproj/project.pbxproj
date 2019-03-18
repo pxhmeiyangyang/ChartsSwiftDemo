@@ -21,6 +21,7 @@
 		F15F2E322236115C007B10BB /* ChartsSwitfDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F2E312236115C007B10BB /* ChartsSwitfDemoTests.swift */; };
 		F15F2E3D2236115C007B10BB /* ChartsSwitfDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F2E3C2236115C007B10BB /* ChartsSwitfDemoUITests.swift */; };
 		F16143EF2238D6D700B9DE53 /* CombinedChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16143EE2238D6D700B9DE53 /* CombinedChartViewController.swift */; };
+		F18C7D68223FA3280007CA3B /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18C7D67223FA3280007CA3B /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		F15F2E3C2236115C007B10BB /* ChartsSwitfDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsSwitfDemoUITests.swift; sourceTree = "<group>"; };
 		F15F2E3E2236115C007B10BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F16143EE2238D6D700B9DE53 /* CombinedChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedChartViewController.swift; sourceTree = "<group>"; };
+		F18C7D67223FA3280007CA3B /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				F12E172A2237D2FD006DEC21 /* GroupBarChartsViewController.swift */,
 				F12E172D2237DE92006DEC21 /* GragBarChartsViewController.swift */,
 				F16143EE2238D6D700B9DE53 /* CombinedChartViewController.swift */,
+				F18C7D67223FA3280007CA3B /* TestViewController.swift */,
 			);
 			path = ChartsSwitfDemo;
 			sourceTree = "<group>";
@@ -389,6 +392,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F18C7D68223FA3280007CA3B /* TestViewController.swift in Sources */,
 				F15F2E1F2236115A007B10BB /* ViewController.swift in Sources */,
 				F15F2E1D2236115A007B10BB /* AppDelegate.swift in Sources */,
 				F12E172E2237DE92006DEC21 /* GragBarChartsViewController.swift in Sources */,

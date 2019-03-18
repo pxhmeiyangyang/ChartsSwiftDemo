@@ -12,7 +12,7 @@ import SnapKit
 class ViewController: UIViewController {
     
     
-    private let tableDatas = ["Group bar charts","Bar charts","Line charts","Drag Bar Charts","Combined Chart"]
+    private let tableDatas = ["Group bar charts","Bar charts","Line charts","Drag Bar Charts","Combined Chart","Test"]
     
     lazy var tableview: UITableView = {
         let view = UITableView()
@@ -60,6 +60,10 @@ extension ViewController: UITableViewDelegate,UITableViewDataSource{
             break
         case "Drag Bar Charts":
             viewController = GragBarChartsViewController()
+            viewController.title = title
+            break
+        case "Test":
+            viewController = TestViewController()
             viewController.title = title
             break
         default:
