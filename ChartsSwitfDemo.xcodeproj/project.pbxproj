@@ -13,6 +13,8 @@
 		F12E17292237CF64006DEC21 /* BarChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12E17282237CF64006DEC21 /* BarChartsViewController.swift */; };
 		F12E172B2237D2FD006DEC21 /* GroupBarChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12E172A2237D2FD006DEC21 /* GroupBarChartsViewController.swift */; };
 		F12E172E2237DE92006DEC21 /* GragBarChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12E172D2237DE92006DEC21 /* GragBarChartsViewController.swift */; };
+		F13FFA8D22B8E4B200CDD7F6 /* UniToy3BarChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13FFA8C22B8E4B200CDD7F6 /* UniToy3BarChatVC.swift */; };
+		F13FFA8F22B8E4DF00CDD7F6 /* UniToy3LineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13FFA8E22B8E4DF00CDD7F6 /* UniToy3LineVC.swift */; };
 		F15F2E1D2236115A007B10BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F2E1C2236115A007B10BB /* AppDelegate.swift */; };
 		F15F2E1F2236115A007B10BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15F2E1E2236115A007B10BB /* ViewController.swift */; };
 		F15F2E222236115A007B10BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15F2E202236115A007B10BB /* Main.storyboard */; };
@@ -54,6 +56,8 @@
 		F12E17282237CF64006DEC21 /* BarChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartsViewController.swift; sourceTree = "<group>"; };
 		F12E172A2237D2FD006DEC21 /* GroupBarChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupBarChartsViewController.swift; sourceTree = "<group>"; };
 		F12E172D2237DE92006DEC21 /* GragBarChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GragBarChartsViewController.swift; sourceTree = "<group>"; };
+		F13FFA8C22B8E4B200CDD7F6 /* UniToy3BarChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniToy3BarChatVC.swift; sourceTree = "<group>"; };
+		F13FFA8E22B8E4DF00CDD7F6 /* UniToy3LineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniToy3LineVC.swift; sourceTree = "<group>"; };
 		F15F2E192236115A007B10BB /* ChartsSwitfDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsSwitfDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F15F2E1C2236115A007B10BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F15F2E1E2236115A007B10BB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +152,8 @@
 				F12E172D2237DE92006DEC21 /* GragBarChartsViewController.swift */,
 				F16143EE2238D6D700B9DE53 /* CombinedChartViewController.swift */,
 				F18C7D67223FA3280007CA3B /* TestViewController.swift */,
+				F13FFA8C22B8E4B200CDD7F6 /* UniToy3BarChatVC.swift */,
+				F13FFA8E22B8E4DF00CDD7F6 /* UniToy3LineVC.swift */,
 			);
 			path = ChartsSwitfDemo;
 			sourceTree = "<group>";
@@ -395,9 +401,11 @@
 				F18C7D68223FA3280007CA3B /* TestViewController.swift in Sources */,
 				F15F2E1F2236115A007B10BB /* ViewController.swift in Sources */,
 				F15F2E1D2236115A007B10BB /* AppDelegate.swift in Sources */,
+				F13FFA8D22B8E4B200CDD7F6 /* UniToy3BarChatVC.swift in Sources */,
 				F12E172E2237DE92006DEC21 /* GragBarChartsViewController.swift in Sources */,
 				F12E17292237CF64006DEC21 /* BarChartsViewController.swift in Sources */,
 				F16143EF2238D6D700B9DE53 /* CombinedChartViewController.swift in Sources */,
+				F13FFA8F22B8E4DF00CDD7F6 /* UniToy3LineVC.swift in Sources */,
 				F12E172B2237D2FD006DEC21 /* GroupBarChartsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -89,11 +89,6 @@ class GragBarChartsViewController: UIViewController {
     private func setData()->BarChartData{
         let xVals_count = 12 //X轴上要显示多少条数据
         let maxYVal: Double = 100 //Y轴的最大值
-        //X轴上面需要显示的数据
-        var xVals = [String]()
-        for i in 0..<xVals_count {
-            xVals.append("\(i)月")
-        }
         barChartView.xAxis.labelCount = xVals_count
         barChartView.xAxis.valueFormatter = BarChartFormatter.init()
         //对应Y轴上面x要显示的数据
